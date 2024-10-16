@@ -109,6 +109,7 @@ html {
 .aboutme-p {
     margin: 1rem 3rem;
     text-align: left;
+    font-size: 1em;
 }
 
 .aboutme-p a{
@@ -238,5 +239,9 @@ html {
     
     .mc-boxes iframe {
         display: none;
+    }
+
+    .aboutme-p {
+        font-size: 0.6em;
     }
 }
