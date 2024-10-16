@@ -101,6 +101,11 @@ html {
     color:#ffffff;
 }
 
+.main-container a h4 {
+    text-decoration: none;
+    color:#ffffff;
+}
+
 .aboutme-p {
     margin: 1rem 3rem;
     text-align: left;
