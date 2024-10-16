@@ -96,6 +96,11 @@ html {
     margin: auto 2rem;
 }
 
+.main-container a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
 .aboutme-p {
     margin: 1rem 3rem;
     text-align: left;
@@ -160,10 +165,6 @@ html {
 .mc-boxes a {
     text-decoration: none;
     color:#ffffff;
-}
-
-.proimg {
-    width: 25vw;
 }
 
 /* Responsive */
