@@ -135,6 +135,16 @@ html {
     font-style: italic;
 }
 
+.divider {
+    margin-top:1rem;
+}
+
+.mc-boxes img {
+    width: 200px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
 /* Responsive */
 @media screen and (max-width: 980px) {
     nav {
