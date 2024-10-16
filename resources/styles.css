@@ -1,6 +1,8 @@
+/* Root */
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Verdana, Tahoma;
 }
 
 html {
@@ -8,6 +10,7 @@ html {
     color: #ffffff;
 }
 
+/* Navigation */
 .nav-container {
     height: 15vh;
     width: 100vw;
@@ -45,34 +48,82 @@ html {
     text-align: center;
 }
 
+/* Main Content Area */
 .main-container {
     height: 85vh;
     text-align: center;
     margin-top:15vh;
+    font-size: 1.8em;
+    align-items: center;
 }
 
+.main-container h1 {
+    margin: 1rem 0;
+    text-shadow: 0.1875rem 0.1875rem black;
+    text-decoration: underline;
+}
+
+.main-container h2 {
+    margin: 1rem 0;
+    text-shadow: 0.14rem 0.14rem black;
+    font-size: 1.15em;
+}
+
+.main-container p {
+    margin: auto 2rem;
+}
+
+.mc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.75em;
+    grid-auto-rows: minmax(5em, auto);
+}
+
+.mc-grid > div {
+    background-color: rgb(65, 0, 0);
+    border-radius: 0.8rem;
+    margin: 1rem 2rem;
+    padding: 1em;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+/* Responsive */
 @media screen and (max-width: 980px) {
-    div {
+    nav {
         font-size: 12px;
     }
 
     .nav-container nav ul li {
         margin: 0 1.2rem;
     }
+
+    .mc-grid > div {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 760px) {
-    div {
+    nav {
         font-size: 8px;
     }
 
     .nav-container nav ul li {
         margin: 0 1rem;
     }
+
+    .mc-grid > div {
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .nav-container nav ul li {
         margin: 0 0.3rem;
+    }
+
+    .mc-grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
