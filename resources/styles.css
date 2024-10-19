@@ -124,16 +124,7 @@ html {
     grid-auto-rows: minmax(5em, auto);
 }
 
-.mc-grid > div {
-    background-color: rgb(50, 25, 25);
-    border-radius: 0.8rem;
-    margin: 1rem 2rem;
-    padding: 1em;
-    font-size: 1.75rem;
-    font-weight: 600;
-}
-
-.mc-grid > a {
+.mc-grid > a div{
     background-color: rgb(50, 25, 25);
     border-radius: 0.8rem;
     margin: 1rem 2rem;
