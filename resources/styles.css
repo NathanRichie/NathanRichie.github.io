@@ -124,7 +124,7 @@ html {
     grid-auto-rows: minmax(5em, auto);
 }
 
-.mc-grid > a div{
+.gridbox {
     background-color: rgb(50, 25, 25);
     border-radius: 0.8rem;
     margin: 1rem 2rem;
