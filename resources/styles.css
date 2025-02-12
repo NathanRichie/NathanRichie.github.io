@@ -173,6 +173,18 @@ html {
     color:#ffffff;
 }
 
+.mc-boxes ul {
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 8%;
+}
+
+img.cron {
+    width: 60%;
+    background-color: #ffffff;
+    align-items: center;
+}
+
 /* Responsive */
 @media screen and (max-width: 980px) {
     nav {

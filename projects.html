@@ -19,7 +19,22 @@
 
     <div class="main-container">
         <h1>My Projects</h1>
-        <p>Welcome. Each title is the link to the correct GitHub repository. I will be doing more projects in the future.</p>
+        <p>Welcome. Most titles are links to the correct GitHub repository. I will be doing more projects in the future.</p>
+
+        <div class="mc-boxes">
+            <h3>&#128204 Quick Links</h3>
+                <div class="aboutme-p">
+                    Below are links to certain skills:
+                </div>
+                <div class="divider"></div>
+                <ul>
+                    <li><a href="projects.html#python">Python</a></li>
+                    <li><a href="projects.html#websites">HTML, CSS, JavaScript</a></li>
+                    <li><a href="projects.html#bash">Bash (Shell)</a></li>
+                </ul>
+        </div>
+
+        <div id="python"></div>
         <div class="mc-boxes">
             <a href="https://github.com/NathanRichie/Battleship" target="_blank"><h3>&#128194 Battleship:</h3></a>
                 <div class="aboutme-p">
@@ -63,6 +78,7 @@
                 </video>
         </div>
 
+        <div id="websites"></div>
         <div class="mc-boxes">
             <a href="https://github.com/NathanRichie/Mock_MSP_Website" target="_blank"><h3>&#128194 Mock MSP Website:</h3></a>
                 <div class="aboutme-p">
@@ -80,6 +96,37 @@
                     The website you are currently on is this project. It was made for people to view my information easier. This website 
                     is my best attempt so far on responsiveness.  
                 </div>
+        </div>
+
+        <div id="bash"></div>
+        <div class="mc-boxes">
+            <h3>&#128295 Cron Job:</h3>
+                <div class="aboutme-p">
+                    Using a Kali VM hosted through HyperV, I created a cron job that automates a backup of files. To do this, I first created two folders, one for 
+                    the documents to be backup and the other for the destination folder.   
+                </div>
+                <img class="cron" src="resources/images/CronProj/desktop.png" alt="Desktop Image">
+
+                <div class="aboutme-p">
+                    Second, I created random files with random content.
+                </div>
+                <img class="cron" src="resources/images/CronProj/files.png" alt="Files Image">
+
+                <div class="aboutme-p">
+                    Third, I created a script that creates the backup of the files and directory to then compress it using tar and gzip. I made sure that the generated files would be unique 
+                    using the date command. 
+                </div>
+                <img class="cron" src="resources/images/CronProj/script.png" alt="Script Image">
+
+                <div class="aboutme-p">
+                    Fourth, I created the cron job by opening the cron configuration file. It is currently set to backup those folders the 1st of every month. 
+                </div>
+                <img class="cron" src="resources/images/CronProj/cron.png" alt="Cron Image">
+
+                <div class="aboutme-p">
+                    Last, I tested my script to make sure the cron job will run. And it worked!
+                </div>
+                <img class="cron" src="resources/images/CronProj/backups.png" alt="Backup Image">
         </div>
     </div>
 
